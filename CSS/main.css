@@ -73,7 +73,7 @@ header{
 .title{
     padding:20px;
     text-align: center;
-    font-size: 22px;
+    font-size: 32px;
    
 }
 .text h3{
@@ -81,8 +81,9 @@ header{
 }
 .text-ap{
     padding:20px;
-    font-size: 18px;
+    font-size: 22px;
     margin:25px;
+    text-align:center;
 }
 .btn-contact{
     width:200px;
@@ -92,30 +93,35 @@ header{
     background-color: #fc0909;
     color: #fff;
     text-transform: uppercase;
-    margin:20px 0 0 320px;
+    margin:20px 0 0 200px;
+}
+.btn-contact:hover{
+    box-shadow: -1px -1px 20px 5px white;
 }
 .icons{
     width: 500px;
     height: 100px;
+    cursor:pointer;
     
-    margin-top:-150px;
-    margin-left: 170px;
+    margin-top:-100px;
+    margin-left: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 32px;
     gap:50px;
 }
+
 .chamada{
     padding: 20px;
     text-align: center;
-    margin-left: 20px;
+       
 
 }
 .question{
     font-weight: 800;
     margin-left: 50px;
-    font-size: 16px;
+    font-size: 18px;
 }
 /*about*/
 
@@ -127,10 +133,10 @@ header{
 .container-about{
     width: 100%;
     margin:10px 0 0 0;
-    padding:20px;
+    padding:10px;
 }
 .textabout{
-    padding: 20px;
+    padding: 5px;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     
