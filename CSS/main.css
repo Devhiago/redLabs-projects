@@ -79,12 +79,7 @@ header{
 .text h3{
     padding:20px
 }
-.text-ap{
-    padding:20px;
-    font-size: 22px;
-    margin:25px;
-    text-align:center;
-}
+
 .btn-contact{
     width:200px;
     height: 50px;
@@ -93,7 +88,7 @@ header{
     background-color: #fc0909;
     color: #fff;
     text-transform: uppercase;
-    margin:20px 0 0 200px;
+    margin:50px 0 0 200px;
 }
 .btn-contact:hover{
     box-shadow: -1px -1px 20px 5px white;
@@ -115,13 +110,16 @@ header{
 .chamada{
     padding: 20px;
     text-align: center;
+    margin:100px 0
        
 
 }
+
 .question{
     font-weight: 800;
     margin-left: 50px;
     font-size: 18px;
+    margin:10px;
 }
 /*about*/
 
@@ -142,17 +140,36 @@ header{
     
 }
 .textabout p{
-    font-size: 16px;
+    font-size: 22px;
     margin:15px 0;
+    font-weight:bold;
 }
 .textabout h1{
     text-align: center;
+    margin:20px 0;
 }
-.textabout h4{
-    margin-top:10px;
+.textabout ul{
+    padding:20px;
+    
+}
+.textabout li{
+    margin-top:20px;
+    font-weight:bold;
+    
+}
+.textabout h3{
+    margin-top:20px;
+    font-size:16px;
+    
+}
+.textabout span{
+    font-size:22px;
+    font-weight:500;
+    
 }
 .text-about{
-    margin-top: 20px;
+    margin-top: 100px;
+    
 }
 .img-about{
     width: 700px;
@@ -166,6 +183,7 @@ header{
     height: 100%;
     
 }
+
 
 /* contact */
 
