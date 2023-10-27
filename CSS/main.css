@@ -40,8 +40,7 @@ header{
 
 .home{
     
-    height: 100vh;
-    width: 100%;
+    height: 95vh;
     background-color: #010006;
     color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -49,15 +48,18 @@ header{
 .image{
     width: 700px;
     height: 700px;
-    margin:20px;
+    margin:20px 0 50px 0;
+    
 
 }
 .image img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .container{
     display: flex;
+    
 }
 .text{
     width: 50%;
@@ -82,7 +84,7 @@ header{
     font-size: 18px;
     margin:25px;
 }
-.btn-saiba{
+.btn-contact{
     width:200px;
     height: 50px;
     border:none;
@@ -90,17 +92,149 @@ header{
     background-color: #fc0909;
     color: #fff;
     text-transform: uppercase;
-    margin:20px 0 0 200px;
+    margin:20px 0 0 320px;
 }
 .icons{
     width: 500px;
     height: 100px;
     
-    margin-top: -50px;
-    margin-left: 50px;
+    margin-top:-150px;
+    margin-left: 170px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 32px;
     gap:50px;
+}
+.chamada{
+    padding: 20px;
+    text-align: center;
+    margin-left: 20px;
+
+}
+.question{
+    font-weight: 800;
+    margin-left: 50px;
+    font-size: 16px;
+}
+/*about*/
+
+
+.about{
+    height: 98vh;
+    display: flex;
+}
+.container-about{
+    width: 100%;
+    margin:10px 0 0 0;
+    padding:20px;
+}
+.textabout{
+    padding: 20px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.textabout p{
+    font-size: 16px;
+    margin:15px 0;
+}
+.textabout h1{
+    text-align: center;
+}
+.textabout h4{
+    margin-top:10px;
+}
+.text-about{
+    margin-top: 20px;
+}
+.img-about{
+    width: 700px;
+    height: 700px;
+    margin:20px 0 50px 0;
+    
+
+}
+.img-about img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* contact */
+
+.contact{
+    height: 98vh;
+    display: flex;
+    background-color: #000000;
+    color:red;
+}
+.img-form{
+    width: 700px;
+    height: 400px;
+    margin: 20px 0;
+}
+.img-form img{
+    width: 100%;
+}
+.form-container{
+    align-items: center;
+    width: 500px;
+    margin: 50px 0 0 200px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;}
+.form-container h2 {
+    color: #d32f2f;
+}
+
+form {
+   
+    
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    color: #ffffff;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 25px 0 0;
+    border-bottom : 1px solid #d32f2f;
+    background-color: #000000;
+    color: #fb0606;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input[type="submit"] {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #b71c1c;
+}
+
+footer {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    padding: 10px 0;
 }
